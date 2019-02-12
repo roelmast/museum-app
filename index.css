@@ -1,3 +1,10 @@
+#Gallary {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 body {
     background-color: #502075;
     font-family: 'Inconsolata', monospace;
