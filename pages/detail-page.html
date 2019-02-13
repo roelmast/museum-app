@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
+    <script src="detail-page.js"></script>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kefka --Best game vilain ever?--</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="detail-page.css">
 </head>
 
 <body>
@@ -24,21 +24,18 @@
             </section>
         </section>
 
-
-        <form onsubmit="submitCommit(); return false">
-        
-        <div class="formSection">
-            <label for="name"Name:></label>
-            <input type="text" id="name">
-        </div>
-        <div class="formSection">
-            <label for="msg"></label>
-            <textarea name="" id="msg" cols="30" rows="10"></textarea>
-        </div>
-        <div class="button">
-            <button type="submit">post your comment</button>
-        </div>
-
+        <form onsubmit="submitComment(); return false">
+            <div class="formSection">
+                <label for="name" Name:></label>
+                <input type="text" id="name">
+            </div>
+            <div class="formSection">
+                <label for="msg"></label>
+                <textarea  id="msg" cols="30" rows="10"></textarea>
+            </div>
+            <div class="button">
+                <button type="default" value="button">post your comment</button>
+            </div>
         </form>
 
     </main>
